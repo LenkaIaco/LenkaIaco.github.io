@@ -27,9 +27,9 @@ justify-content: center;
 }
 
 .menu-link:hover{
-  color: blue;
+  color: gray;
   font-weight: 1000;
-  font-size: x-large;
+  font-size: xx-large;
   cursor: pointer;
 }
 
