@@ -11,7 +11,8 @@ justify-content: center;
   display: flex;
   color:white;
    font: lighter 30px 'Josefin Sans';
-  background-color: #222;
+  background-color: rgba(12, 12, 12, 0.8);
+  box-shadow: 20px 20px 10px rgb(25, 26, 26);
   width: 1000px;
   justify-content: center;
   align-items: center;
@@ -27,7 +28,8 @@ justify-content: center;
 }
 
 .menu-link:hover{
-  color: gray;
+  color: white;
+  text-shadow: 0 0 0.2em whitesmoke;
   font-weight: 1000;
   font-size: xx-large;
   cursor: pointer;
