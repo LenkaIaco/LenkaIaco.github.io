@@ -1,26 +1,32 @@
 <html>
-    <head>
-        <!-- GITHUB - CLONING existing github repositories (e.g. vscode repository containing ALL versions of the source code:
+
+<head>
+    <!-- GITHUB - CLONING existing github repositories (e.g. vscode repository containing ALL versions of the source code:
             upper-left green button Code - section Clone: DONT CLICK download ZIP; instead click OPEN WITH GITHUB DESKTOP - choose a folder on your comp - the source code will be 
             downloaded incl all previous source code versions (also called 'commits' on github)) -->
-            <!-- GITHUB - Create a new repository on Github - Repository name insert as follows> 'username'.github.io: LenkaIaco.github.io -->
-            <!-- GITHUB - Create a website(you can always pick to have one repository under the webpage): Create a new repository: Repository Name: username.github.io (LenkaIaco.github.io) - click Create Repository. Then, copy the created 
+    <!-- GITHUB - Create a new repository on Github - Repository name insert as follows> 'username'.github.io: LenkaIaco.github.io -->
+    <!-- GITHUB - Create a website(you can always pick to have one repository under the webpage): Create a new repository: Repository Name: username.github.io (LenkaIaco.github.io) - click Create Repository. Then, copy the created 
             URL link  in the HTTPS SECTION (not SSH) (https://github.com/LenkaIaco/LenkaIaco.github.io.git). Go to your desktop github app and open Settings - Remote, and change the pre-defined url link into the copied one.
         Result: paste lenkaiaco.github.io in your wen browser and you will see your published website. If you have several html documents in your repository, you can view them by adding /filename.html to the address, eg 
         lenkaiaco.github.io/about.html : the part before / is the main domain name and it can contain as many html files as needed. -->
-                        <title>Title of website</title> <!-- title of the opened cardin web browser, containing this file. The title will appear in card menu bar, on your card -->
-        <meta charset="utf-8">   <!-- character set. All writing characters(e.g. alphabet) are encoded into a group number combinations, unique to the concrete CHARSET. In the end they get translated to unique sequences of 0s and 1s (number codes that are executable by the computer). Each character has its own number, unique to the CHARSET.
+    <title>Title of website</title>
+    <!-- title of the opened cardin web browser, containing this file. The title will appear in card menu bar, on your card -->
+    <meta charset="utf-8">
+    <!-- character set. All writing characters(e.g. alphabet) are encoded into a group number combinations, unique to the concrete CHARSET. In the end they get translated to unique sequences of 0s and 1s (number codes that are executable by the computer). Each character has its own number, unique to the CHARSET.
         UTF-8 is recommended to be used when programming as is very widespread. Its important to use the SAME encoding at every part of your website; once selected, use UTF all the way through until the website is finished. -->
-        <style>
-            /* <style> tag indicates that the code within is written in CSS not HTML anymore. So the program recognises it correctly. 
+    <style>
+        /* <style> tag indicates that the code within is written in CSS not HTML anymore. So the program recognises it correctly. 
                 For better orientation, especially when writting large amounts of code, it is however recommended to create a separate CSS file - create a new text file in VisualStudioCode, 
                 and save it with ending .css - that means this text file contains CSS rules, and can be recognised as a CSS file when opened in VisualStudioCode 
                 If you have the same html element styled in your css file and styled in your HTML file via style tag, the style tag in HTML overrides the CSS file styling. However,
                 for orientation and efficiency purposes it is better to put all the css styling into css.*/
-            h1{background-color: darkolivegreen;}
-        </style>
-        
-        <link rel="stylesheet" href="style1.css"><!-- to link a separate CSS file to your html file, refer to it with the <link> tag as seen here. 
+        h1 {
+            background-color: darkolivegreen;
+        }
+    </style>
+
+    <link rel="stylesheet" href="style1.css">
+    <!-- to link a separate CSS file to your html file, refer to it with the <link> tag as seen here. 
             Relative address: Our css file is saved in the same folder as our HTML file, therefore we refer to only the file name in the "address part"; the address path to the CSS file is same as the path of this HTML file 
             If the css file is in a folder "css" next to the html file on the computer, but they have the same parent folder, use still relative address, only enriched by the one extra folder that is different 
             in the address path of your CSS file, compared to the HTML file's address path: "styles/style.css"
@@ -29,14 +35,16 @@
             Absolute address example: "http://example.com/style.css"
             Absolute address of this file in the folder(if inserted as a web browser's address, you can preview how your website will look like once it is on the web. Btw, the main purpose of browsers is to display htmls files.): file:///C:/laragon/www/adventure/MyFirstAppCampNov2022/9Nov2022MyFirstAppCamp.html 
        
-        <link rel="stylesheet" href="second.css">   you can refer to multiple css files in your html file. If you style the same html tag with the same property in both files, the second rule in the second file will override the first; as the code is being read and executed line by line, from top to bottom, in the htm, file.--> 
-            <body>
-<h1>
-    <a href="index.html">Link to Anakin's CV</a>
-</h1>
-<a href="about.html">relative link to a html text file in my comp</a>
-<p>Another paragraph</p>
-<img src="hk0860-1415-web.jpg" alt="">
-        </body>
-    </head>
+        <link rel="stylesheet" href="second.css">   you can refer to multiple css files in your html file. If you style the same html tag with the same property in both files, the second rule in the second file will override the first; as the code is being read and executed line by line, from top to bottom, in the htm, file.-->
+
+<body>
+    <h1>
+        <a href="index.html">Link to Anakin's CV </a>
+    </h1>
+    <a href="about.html">relative link to a html text file in my computer</a>
+    <p>Another paragraph</p>
+    <img src="hk0860-1415-web.jpg" alt="">
+</body>
+</head>
+
 </html>
