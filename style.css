@@ -57,7 +57,8 @@ flex-wrap: wrap;
   color: #222;
 height: 460px;
 width: 360px;
-background-size: 1400px; /*resize image to fit container*/
+background-size: 1300px;
+background-repeat: no-repeat; /*resize image to fit container*/
   background-position: center;
   display: flex;
    flex-direction: column;

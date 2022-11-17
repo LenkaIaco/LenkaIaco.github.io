@@ -1,0 +1,40 @@
+body{
+    background-image: url("https://studycli.org/wp-content/uploads/2019/12/chinese-dragon-wall-art.jpg");
+    background-size: cover;
+    /* 1380px 1000px; */
+}
+
+p{text-align: center;
+background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR3AN2JzS4b3gH2ywIs_fps6wbomgtwXXuYvw&usqp=CAU");
+background-size: 25%;
+box-shadow: 5px 5px 30px teal;
+font: italic 30px serif;
+color: turquoise; }
+
+div{display: flex;
+justify-content: right;
+align-items: end;
+/* background: green; */
+height: 830px;}
+
+box{ 
+    background-color: rgba(28, 46, 46, 0.4); 
+    border: 20px solid rgba(196, 207, 207, 0.5);
+    border-radius: 10%;
+    box-shadow: 20px 20px 10px rgba(196, 207, 207);
+    margin-bottom: 60px;
+    margin-right: 400px;}
+
+img{
+    opacity: 0.2;
+    height: 400px;
+}
+
+a{display: flex;
+align-self: flex-start;
+justify-self: center;
+border: 5px solid rgba(255, 255, 255, .5);
+border-radius: 30%;
+background-color: rgba(255, 255, 255, .7);
+font-size: xx-large;
+margin: 30px;}
