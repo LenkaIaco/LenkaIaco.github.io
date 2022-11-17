@@ -1,0 +1,25 @@
+p{
+    background-color: dodgerblue;
+    width: 50px;
+    height: 50px;
+    margin: 10px;
+}
+
+div{
+    border: 2px solid dodgerblue;
+    height: fit-content;
+    width: fit-content;
+    padding: 10px;
+    margin: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.div2 p{
+    background-color: purple;
+}
+
+.div2{
+    background-color: salmon;
+}
