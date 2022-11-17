@@ -1,0 +1,38 @@
+body {
+    background-image: url("horse-statue.png");
+    font: italic 20px serif;
+    color: white;
+}/* https://www.digitalocean.com/community/tutorials/how-to-change-a-css-background-images-opacity */
+
+.asteroid{
+    width: 200px;
+}
+
+p.asteroid.big, div.asteroid.b329.big{
+    color: blue;
+
+}
+
+#b325{
+    border: 1px solid green;
+    font-weight: bold;
+}
+div.asteroid.b326{
+    border: 1px solid green;
+    font-weight: bold;
+}
+
+div.asteroid.b329.big{
+    font-weight: bold;
+}
+
+p.asteroid.big{
+    background-color: yellow;
+}
+
+/* asteroid big, asteroid b329 big : blue
+asteroid(id="b325"), asteroid b326 : green border
+asteroid(id="b325"), asteroid b326, asteroid b329 big   : bold
+asteroid big                       : yellow background
+
+ */
