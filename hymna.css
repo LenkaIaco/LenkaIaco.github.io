@@ -1,0 +1,12 @@
+p{
+    border: 2px solid black;
+    height: fit-content;
+    width: 150px;
+    padding: 20px;
+    text-align: justify-all;
+    margin: 0;
+    border-bottom: 0;
+}
+p:hover{
+    background-color: salmon;
+}
