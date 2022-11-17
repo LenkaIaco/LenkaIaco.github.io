@@ -27,7 +27,7 @@ justify-content: center;
 }
 
 .menu-link:hover{
-  color: yellow;
+  color: blue;
   font-weight: 1000;
   font-size: x-large;
   cursor: pointer;
