@@ -1,0 +1,40 @@
+div {
+    display: inline;/*makes the "div" variables appear in rectangular boxes in a single line*/
+    margin-right: 50px;
+    padding: 10px; /*distance between text and border */
+    border-radius:50px; /*makes the border edges or the whole border rounder, based on how high the px value is set */
+    border: 15px solid;
+    background: lime;
+  }
+  
+  .first {
+    color: blue;/*for text color*/
+    border: 12px dotted #eb4034;
+  }
+  
+  .second {
+    border: 4px solid #eb4034;
+    background: white;
+  }
+  
+  .third {
+    background: rgb(255,100,60);
+    border: 8px solid yellowgreen;
+  }
+  
+  .fourth{ 
+    border: solid blue
+  }
+  
+  .human{
+    background: yellow;
+      border: solid purple
+  }
+  
+  body {
+    padding: 40px;
+  }
+
+  .hidden{
+    display: none;
+  }

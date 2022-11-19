@@ -1,3 +1,24 @@
+//4th part jQuery. Startig point of each jQuery is where $ below starts:
+//jQuery (starting with symbol $) - library with pre-defined commands(functions) executors of JS:
+// $(selector).action()  - where selector is any tag in html. This way you can change contents of HTML, or styling of CSS via javascript
+$('div').text('hello world'); //change the HTML text of the div tags into hello world
+$('div').css('background',' purple') //change the CSS background color property
+$('h1').html('<strong>hello world!</strong>') //diference between .text and .html scripts is that the latter can contain html elements other than text, in this case <strong>
+$('h1').append(' more text') //add new element into h1. Accepts HTML structure: .append('<p>A new paragraph.</p>')
+$('h1').remove()//for removing an element (whole tag, or a specific child tag within)
+$('button').click(() => {
+            $('.first').toggleClass('hidden'); //switch on/off classes' definitions. Alternatively written:
+            // $('.button').on('click', () => {$('.first').toggleClass('hidden')}) 
+            //, if css class is .hidden, it will switch to 'display' and vice versa. To be able to do this, we 
+            //firstly created an entry in css,  class .hidden with property display: none (see end of CSS code). 
+            //toggle means to switch between 2 states, like on and off or in this case, hidden and not hidden
+            //referencing in brackets: ('.first') with dot, however ('hidden') without dot. You can assign a
+            //HTML class 'first' to several elements, but there can be only one CSS class .hidden
+)
+let backgroundColor = $('h1').css('background-color') //load the css styling of h1 into variable
+
+// From 1st part to the 3rd - jQuery
+
 //USEFUL VS CODE SHORTCUTS (not only for JS, any doc type):(top-left gear symbol - command palette - type in 'keyboard' and select Help: Keyboar Shortcuts)
 //Or directlink: https://code.visualstudio.com/shortcuts/keyboard-shortcuts-windows.pdf
 console.log("JavaScript is working!") // to check whether our document is working, this command shows the comment in the Console part of the web browser
@@ -60,13 +81,13 @@ colors.forEach(color => {
 let myFunction = x => x * x  //x is basically a placeholder for some input
 
 let greeter = name => {
-    console.log(`Hello, ${name}`)
+    console.log(`Hello, ${name}`) //you can also write it as ("hello, "+ name). If you use ` instead of ", you can utilise the $(variable); with traditional quotes "" this wont work
     if (name === "Lenka") {
         console.log("you are a JS-newbie");
     }
 }
 
-let name = ["Adam", "Peter", "Mate", "Reka"]; //new array of names
+let name = ["Adam", "Peter", "Mate", "Reka"];//new array of names. LET: u are defining an element whose content u can reassign anytime. Using CONST instead, u can't reassign t content.
 
 
 greeter(name); // woll return all array content at once
@@ -78,6 +99,17 @@ greeter("Lenka");
 name.forEach(arrayEntry => {
     greeter(arrayEntry);
 });
+
+
+//JQUERY LIBRARY:
+//jQuery is JS's library quite easy to learn so suitable for beginners. JS has many libraries but others are more complicated. For studying purposes we therefore pick and use this one.
+
+
+
+
+
+
+
 
 
  console.log("this is the end of our code") // each time you refresh webpage, whole JS code is being re-run. Good practice to put a line indicating end of code, then you can see what
