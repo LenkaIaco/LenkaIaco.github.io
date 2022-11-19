@@ -1,4 +1,5 @@
-//4th part jQuery. Startig point of each jQuery is where $ below starts:
+// Launching Dev Tools on any website: right - click, choose 'Inspect Element'. Google Chrome has best support 
+//for Dev Tools so is preferred by Developers. Here, we focus on tab 'Console', for JS code
 //jQuery (starting with symbol $) - library with pre-defined commands(functions) executors of JS:
 // $(selector).action()  - where selector is any tag in html. This way you can change contents of HTML, or styling of CSS via javascript
 $('div').text('hello world'); //change the HTML text of the div tags into hello world
@@ -16,8 +17,6 @@ $('button').click(() => {
             //HTML class 'first' to several elements, but there can be only one CSS class .hidden
 
 let backgroundColor = $('h1').css('background-color') //load the css styling of h1 into variable
-
-// From 1st part to the 3rd - jQuery
 
 //USEFUL VS CODE SHORTCUTS (not only for JS, any doc type):(top-left gear symbol - command palette - type in 'keyboard' and select Help: Keyboar Shortcuts)
 //Or directlink: https://code.visualstudio.com/shortcuts/keyboard-shortcuts-windows.pdf
@@ -232,12 +231,16 @@ name.forEach(arrayEntry => {
 // (3) ['blueish', 'blue', 'purple']
 // // quiz: what is result of this boolean calculation (&& is logical operator AND, || is OR):  false || (true && (false || false)):
 // undefined
+//BOOLEAN a data type that has value true or false. (other datatypes e.g. text, number). Booleans can be used 
+//with LOGICAL OPERATORS: && and ('logical and'), || or ('logical or'), etc. 
+// AND results true only if both values are true; as opposed to OR. See e.g. this equation with result 'false':
 // false || (true && (false || false)) // more info on operators AND and OR:
 // false
 // //https://homepages.inf.ed.ac.uk/rbf/HIPR2/logic.htm
 // undefined
 // //https://homepages.inf.ed.ac.uk/rbf/HIPR2/or.htm
 // undefined
+// NOT is an unary Operator(just one value as input), it negates the input value: "!true" = false; !!true =true
 // title = "My post"
 // 'My post'
 // description = "My first post, awesome"
@@ -299,8 +302,8 @@ name.forEach(arrayEntry => {
 // undefined
 // let newVariable = 15 //defining new variable
 // undefined
-// newVariable === 3 //using 3x '=' to verify whether my variable contains the value 3
-// false
+// newVariable === 3 //using 3x '=' to verify whether my variable contains the value 3. Opposite: !== NOT EQUALS
+// false // EQUALS operator returns always a boolean result.
 // //== is being used too, but === compares also if the variable type is same, so it's recommended
 // undefined
 // newVariable !== 10 //check if the value is NOT 10
@@ -312,3 +315,10 @@ name.forEach(arrayEntry => {
 // objectPost === objectPost
 // true
 // objectPost === {}  //if equal to an empty object
+//false
+//OTHER OPERATORS: Division '/' works like in math however lets you divide by 0:
+// let resultD = 10 / 0
+// resultD is Infinity
+// operator Modulo '%' : like in math, get remainder value of a division:
+// 5%3
+// 2
