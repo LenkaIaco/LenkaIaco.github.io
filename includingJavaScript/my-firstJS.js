@@ -8,7 +8,7 @@ $('h1').html('<strong>hello world!</strong>') //diference between .text and .htm
 $('h1').append(' more text') //add new element into h1. Accepts HTML structure: .append('<p>A new paragraph.</p>')
 $('h1').remove()//for removing an element (whole tag, or a specific child tag within)
 $('button').click(() => {
-            $('.first').toggleClass('hidden'); //switch on/off classes' definitions. Alternatively written:
+            $('.first').toggleClass('hidden')}); //switch on/off classes' definitions. Alternatively written:
             // $('.button').on('click', () => {$('.first').toggleClass('hidden')}) 
             //, if css class is .hidden, it will switch to 'display' and vice versa. To be able to do this, we 
             //firstly created an entry in css,  class .hidden with property display: none (see end of CSS code). 
@@ -112,6 +112,16 @@ name.forEach(arrayEntry => {
 
 
  console.log("this is the end of our code")
+//  WEAKLY TYPED PROGRAMMING LANGUAGES:
+// JavaScript is a weakly typed programming language which means it will convert types in order to successfully 
+// perform an operation
+// let result = 'apple' + 5;
+// result equals to "apple5"
+// let result2 = '122' - 1;
+// result2 equals to 121
+//Also, it is not possible to define a type for a variable, you can change its value anytime meanwhile in other
+// languages, e.g. after defining myString as a string then you are not allowed to assign a number to it.
+
  // each time you refresh webpage, whole JS code is being re-run. Good practice to put a line indicating end of code, then you can see what
 //  happened in between - if you made a mistake in code that caused the rest of the code not be executed, you wont see the final statement either. If however everything is working as 
 //  designed and you are searching to e.g. have a statement displayed coded under a condition that is not valid anymore(e.g. the age variable changed to 12 in the meantime, so when 
@@ -191,8 +201,12 @@ name.forEach(arrayEntry => {
 // let b = 5
 // a && b /** LOGICAL OPERATORS: (e.g. AND OR ... used in math operations). && is the character for AND operator */
 // /* list(=arrays): instead of defining variables for each line of text we can create an array-type variable and store all our lines of text there. its being defined with []brackets */
-// let colors = [] //empty array
-// undefined
+// ARRAYS are zero-based, i.e. first array value is numbered in JS as position 0(or index 0) instead of 1.
+//let colors = [] //empty array. 
+//let myArray = [3, 5, 6, 2, 22];
+// myArray[1] is going to be 5 (2nd value stored in array)
+// Count of the values:
+// console.log(myArray.length); // prints 5
 // colors = ["orange", "blue"] //updating array content
 // (2) ['orange', 'blue']
 // let different = [1, "text", true] /*can fill with different types of values*/
@@ -262,7 +276,8 @@ name.forEach(arrayEntry => {
 // 'My post'
 // //opposed to an array, an object's purpose is usually to store diff types of information in one place
 // undefined
-// objectPost.comments.push("another comment") //adding new values to variables of the object
+// objectPost.author = "FB user" //attach new elements to objects anytime
+// objectPost.comments.push("another comment") //adding new values to existing variables of the object
 // 3
 // comments.push("adding short-reference comment")
 // 3
