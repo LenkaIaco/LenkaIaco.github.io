@@ -4,3 +4,5 @@ let object = {
 colors: ["blue", "purple", "green", "yellow"],
 }
 object.hasManyColors = colors.length > 3
+
+console.log("Lenka Iacovelli")
