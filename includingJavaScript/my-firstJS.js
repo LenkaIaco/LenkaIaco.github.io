@@ -14,7 +14,7 @@ $('button').click(() => {
             //toggle means to switch between 2 states, like on and off or in this case, hidden and not hidden
             //referencing in brackets: ('.first') with dot, however ('hidden') without dot. You can assign a
             //HTML class 'first' to several elements, but there can be only one CSS class .hidden
-)
+
 let backgroundColor = $('h1').css('background-color') //load the css styling of h1 into variable
 
 // From 1st part to the 3rd - jQuery
@@ -112,11 +112,12 @@ name.forEach(arrayEntry => {
 
 
 
- console.log("this is the end of our code") // each time you refresh webpage, whole JS code is being re-run. Good practice to put a line indicating end of code, then you can see what
- // happened in between - if you made a mistake in code that caused the rest of the code not be executed, you wont see the final statement either. If however everything is working as 
- // designed and you are searching to e.g. have a statement displayed coded under a condition that is not valid anymore(e.g. the age variable changed to 12 in the meantime, so when 
- // the code is re-run, the statement "you are an adult" will disappear from the console, however the code is functional, only the inputs of the code changed - and results changed too.
- //workaround is in this case to include into the if-then structure also the else argument, so you see whether the value is true/false and working or it is not working at all)
+ console.log("this is the end of our code")
+ // each time you refresh webpage, whole JS code is being re-run. Good practice to put a line indicating end of code, then you can see what
+//  happened in between - if you made a mistake in code that caused the rest of the code not be executed, you wont see the final statement either. If however everything is working as 
+//  designed and you are searching to e.g. have a statement displayed coded under a condition that is not valid anymore(e.g. the age variable changed to 12 in the meantime, so when 
+//  the code is re-run, the statement "you are an adult" will disappear from the console, however the code is functional, only the inputs of the code changed - and results changed too.
+//  workaround is in this case to include into the if-then structure also the else argument, so you see whether the value is true/false and working or it is not working at all)
 
 //  /* the previous web-browser console log pastet in comments below, so we dont get an error in our current file for reference. As the browser's console produces results of the code at
 //  the subsequent line after writing your line of code, this cannot be read by a .js file as a valid command and produce errors.*/
@@ -311,4 +312,3 @@ name.forEach(arrayEntry => {
 // objectPost === objectPost
 // true
 // objectPost === {}  //if equal to an empty object
-// false
