@@ -79,7 +79,7 @@ array.forEach(element => { //forEach is designed to loop through arrays, so an e
     console.log(element)
 });
 
-let printArray = (Array) => {
+let printArray2 = (Array) => {
     Array.forEach((element) => {
         console.log(element)
     })
