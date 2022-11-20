@@ -1,0 +1,27 @@
+main{
+    border: 5px solid #4285f4;
+    width: 20%;
+  }
+  p{ /*common property for all p tags*/
+    color: white;
+    margin: 0 0 0 0;
+    padding: 30px;
+    display: block;
+    text-align: center;
+    vertical-align: middle; /*doesn't work for some reason? ...however can be replaced by
+    defining padding attribute with just one value. ANSWER: Property is ignored due to the display. With 
+    'display: block', vertical-align should not be used.*/
+    font-size: 50px;
+  }
+  .north{
+    background: #E67676;
+  }
+  .east{
+    background: #F2F062;
+  }
+  .south{
+    background: #A9E6E6;
+  }
+  .west{
+    background: #7692E4;
+  }
