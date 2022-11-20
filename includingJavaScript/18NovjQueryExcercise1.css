@@ -1,0 +1,28 @@
+p {
+    color: #015668;
+    background: #0D91A1;
+    border: solid;/*unless defined otherwise, border color copies text color*/
+     border-right-color: orange;
+     border-left: 10px dashed orange;
+     /* the border property order matters: the most general property should 
+     be at the top and the most specific and the bottom. Otherwise,
+     the general border style: solid would override every border-related rule
+     we defined before*/
+    width: 20%;/* VALUE: % or px. Undefined, text boxes take up all line.*/
+    height: 50px;
+    padding-top: 10px;
+    padding-right: 2px;
+    padding-bottom: 10px;
+    padding-left: 50px;
+   /*FONT SPECIFICATIONS:
+   a specific font installed on your computer might only not work on others.
+   (who might not have those fonts installed). Solution:
+    1. GENERAL FONT CATEGORIES are available on any comp(serif, sans-serif, cursive, system-ui, monospace…). 
+    2. Load a font from the internet e.g. in https://fonts.google.com/
+   */
+   font-size: 30px;
+   font-family: 'Roboto', sans-serif; /*fonts from web must be specified: 
+   - in HTML in <head> tag(or, for Codepen, under: Settings-HTML-Head Stuff),
+   - in CSS as font-family */
+   
+}

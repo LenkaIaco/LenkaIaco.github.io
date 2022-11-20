@@ -2,7 +2,7 @@
 //for Dev Tools so is preferred by Developers. Here, we focus on tab 'Console', for JS code
 //jQuery (starting with symbol $) - library with pre-defined commands(functions) executors of JS:
 // $(selector).action()  - where selector is any tag in html. This way you can change contents of HTML, or styling of CSS via javascript
-$('div').text('hello world'); //change the HTML text of the div tags into hello world
+$('div').text('hello world'); //change the text of the HTML div tag into hello world
 $('div').css('background',' purple') //change the CSS background color property
 $('h1').html('<strong>hello world!</strong>') //diference between .text and .html scripts is that the latter can contain html elements other than text, in this case <strong>
 $('h1').append(' more text') //add new element into h1. Accepts HTML structure: .append('<p>A new paragraph.</p>')
