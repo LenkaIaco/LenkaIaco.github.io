@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        button{
+            margin: 30px;
+            margin-left: 2px;
+        }
+    </style>
+</head>
+<body>
+    <label for="#colorInput">Choose a color:</label>
+    <input id="colorInput" type="color" value="#4251f5">
+<br>
+<button id="button1">Color button anytime</button>
+<button id="button2">Color button ONCE</button>
+    <script src="https://code.jquery.com/jquery-3.6.1.min.js"></script>
+    <script>
+                
+        $('#button1').on('click',()=>{
+            // let color = ${#colorInput}
+            $('#button1').css('background-color',document.getElementById("colorInput").value)
+        })
+
+        let count = 0
+        $('#button2').on ('click', () => {
+            count = 1 + count;
+            if (count === 1) {
+            $('#button2').css('background-color',document.getElementById("colorInput").value)} 
+        })
+
+        
+    </script>
+</body>
+</html>
