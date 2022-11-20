@@ -1,0 +1,19 @@
+main{
+    font-family: 'Playfair Display', serif;
+  }
+  ul.squares {list-style-type: square;}
+  ol.romanNumbers {
+    list-style-type: upper-roman;
+    color: magenta;
+  }
+  li.BackToBlack{
+    color: black;
+  }
+  h1{
+    color: #a83a32;
+  }
+  
+  h2{
+    color: purple;
+  }
+  

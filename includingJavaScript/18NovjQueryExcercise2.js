@@ -1,7 +1,7 @@
 let color = 'purple'
 let number = 10;
 let word = 'cool';
-$('.north').css('background-color', color)
+$('.north').css('background-color', color) //referring to a JS-variable COLOR, not to css, we dont use ''
 $('.east').text('new text')
 // $('')
 if (number > 100) {
