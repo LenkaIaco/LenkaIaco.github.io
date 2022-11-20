@@ -105,13 +105,11 @@ name.forEach(arrayEntry => {
 
 
 
-
-
-
-
-
-
  console.log("this is the end of our code")
+
+ //3 building blocks in programming science: Assignment (assign value to variable); Condition(if - makes the 
+ //code statement optional), Loops(execude piece of code several times).
+ //Condition lets you define which part of your code gets executed (based on condition fulfillment)
 //  WEAKLY TYPED PROGRAMMING LANGUAGES:
 // JavaScript is a weakly typed programming language which means it will convert types in order to successfully 
 // perform an operation
