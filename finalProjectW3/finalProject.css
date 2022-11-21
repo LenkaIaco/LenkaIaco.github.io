@@ -1,0 +1,75 @@
+
+body{
+    background-image: url("./images/background1.jpg");
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+}
+AppTable{
+display: flex;
+align-content: center;
+background-color:lemonchiffon;
+height: 1000px;
+width: 1000px;
+display: flex;
+justify-content: center;
+align-items: center;
+flex-wrap: wrap;
+margin: 0;
+}
+/* --------------------------------------- */
+.photoviewer{
+    height: 700px;
+    width: 1000px;
+    display: flex;
+    background-color:lightgreen;
+}
+.image{
+    height: 700px;
+    width: 700px;
+    display: flex;
+}
+.sidebar{
+    height: 100%;
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    background-color: chartreuse;
+
+}
+
+sidebarwrap{
+    height: 100%;
+    width: 30%;
+    background-color: blanchedalmond;
+    display: flex;
+    justify-content: center;
+}
+
+ #arrowright{
+transform: rotate(180deg);
+}
+
+#arrowleft:hover { opacity: 0.5; cursor: pointer;}
+#arrowright:hover { opacity: 0.5; cursor: pointer;}
+
+img{
+    height: inherit;
+    width: inherit;
+
+}
+/* ------------------------------------- */
+.thumbnailviewer{
+    height: 200px;
+    width: 1000px;
+    display: flex;
+    background-color:lightgreen;
+    justify-content: center;
+}
+galleryholder{
+    height: inherit;
+    width: 50%;
+    display: flex;
+    background-color:rgb(173, 177, 173);
+}
