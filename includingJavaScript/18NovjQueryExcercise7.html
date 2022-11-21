@@ -97,7 +97,7 @@
         $('ulbox').append('<p><task>'+newTask+'</task><mybuttons><button><i class="fa-solid fa-trash"></i></button><button><i class="fa-solid fa-circle-check"></i></button></mybuttons></p>');
     })
 
-$('p').on('click','.fa-solid.fa-circle-check',(event)=>{
+$('greybox').on('click','.fa-solid.fa-circle-check',(event)=>{
     let buttonTag = event.target.parentElement;
     let myButtonsTag = buttonTag.parentElement;
     let pTag = myButtonsTag.parentElement;
@@ -106,21 +106,21 @@ $('p').on('click','.fa-solid.fa-circle-check',(event)=>{
     $(event.target).css('color', 'green')
 })
 
-$('p').on('click','.fa-solid.fa-trash',(event)=>{
-    let buttonTag = event.target.parentElement;
-    let myButtonsTag = buttonTag.parentElement;
-    let pTag = myButtonsTag.parentElement;
+$('ulbox').on('click','.fa-solid.fa-trash',(event)=>{
+    buttonTag = event.target.parentElement;
+    myButtonsTag = buttonTag.parentElement;
+    pTag = myButtonsTag.parentElement;
     console.log(((event.target.parentElement).parentElement).parentElement);//testing if it works without variables as well - it does :)
     $(pTag).remove()
 })
 
-$('p').on('click',(event)=>{
-    let buttonTag = event.target.parentElement;
-    let myButtonsTag = buttonTag.parentElement;
-    let pTag = myButtonsTag.parentElement;
-    console.log(((event.target.parentElement).parentElement).parentElement);//testing if it works without variables as well - it does :)
-    $(pTag).remove()
-})
+// $('p').on('click',(event)=>{
+//     let buttonTag = event.target.parentElement;
+//     let myButtonsTag = buttonTag.parentElement;
+//     let pTag = myButtonsTag.parentElement;
+//     console.log(((event.target.parentElement).parentElement).parentElement);//testing if it works without variables as well - it does :)
+//     $(pTag).remove()
+// })
 
 
     </script>
