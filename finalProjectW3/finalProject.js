@@ -80,9 +80,30 @@ $('#soapbubble').attr('src', imagebarSOAPBUBBLE.photo);
 let imagebarSPIRALSTAIRCASE = {
     photo: 'images/spiralstaircase.jpg',
     imagetitle: "STAIRCASE",
-    imagedescription: "Recurring patterns with changing colors",
+    imagedescription: "Recurring patterns, spiralling into a depth of colors",
 }
 $('#spiralstaircase').attr('src', imagebarSPIRALSTAIRCASE.photo);
+
+let imagebarTORIGATES= {
+    photo: 'images/torigates.jpg',
+    imagetitle: "Gates to heaven",
+    imagedescription: "Enter another reality passing through toris of the rainbow",
+}
+$('#torigates').attr('src', imagebarTORIGATES.photo);
+
+let imagebarTRIANGLES= {
+    photo: 'images/triangles.jpg',
+    imagetitle: "Winter decorations",
+    imagedescription: "Making spirits bringht in gloomy weather",
+}
+$('#triangles').attr('src', imagebarTRIANGLES.photo);
+
+let imagebarTWISTINGMOUNTAINROAD= {
+    photo: 'images/twistingmountainroad.jpg',
+    imagetitle: "Fantasy sports",
+    imagedescription: "Gliding through, watching the stripes of color dance",
+}
+$('#twistingmountainroad').attr('src', imagebarTWISTINGMOUNTAINROAD.photo);
 
 let Array = [imagebarBOAT, imagebarCAT, imagebarCLOVERS, imagebarDISCOBALLS, imagebarDOG, imagebarFACEPAINT, imagebarHOTELFLOORS, imagebarNEBULA, imagebarPAINTPATTERN, imagebarRAINBOWINGALLERY, imagebarSOAPBUBBLE, imagebarSPIRALSTAIRCASE, imagebarSUNBEDSBEACH, imagebarTORIGATES, imagebarTRIANGLES, imagebarTWISTINGMOUNTAINROAD ]
 
